@@ -390,24 +390,44 @@ footer a { color: #0073E6; text-decoration: none; }
 
   <div class="watch-hint">📲 Assista o vídeo abaixo</div>
   <div class="watch-arrow">↓</div>
+<!-- VÍDEO -->
+<div id="video-area" role="region" aria-label="Vídeo demonstrativo do Arsenal do Diretor">
+  
+  <style>
+    #video-area{
+      max-width:420px;
+      margin:0 auto 22px;
+      border-radius:16px;
+      overflow:hidden;
+      background:#000;
+    }
 
-  <!-- VÍDEO WISTIA -->
-  <div id="video-area" style="margin: 0 auto 22px; max-width: 420px;" role="region" aria-label="Vídeo demonstrativo do Arsenal do Diretor">
-    <script src="https://fast.wistia.com/player.js" async></script>
-    <script src="https://fast.wistia.com/embed/h3hm3j5cdh.js" async type="module"></script>
-    <style>wistia-player[media-id='h3hm3j5cdh']:not(:defined){background:center/contain no-repeat url('https://fast.wistia.com/embed/medias/h3hm3j5cdh/swatch');display:block;filter:blur(5px);padding-top:133.33%;}</style>
-    <wistia-player media-id="h3hm3j5cdh" aspect="0.75"></wistia-player>
-  </div>
+    wistia-player{
+      display:block;
+      width:100%;
+      aspect-ratio:3/4;
+    }
+  </style>
 
-  <div class="mini-social-proof">
-    <div class="avatars">
-      <img src="https://i.pravatar.cc/40?img=12" alt="Professora 1" loading="lazy" width="40" height="40">
-      <img src="https://i.pravatar.cc/40?img=32" alt="Professora 2" loading="lazy" width="40" height="40">
-      <div class="avatar-last">
-        <img src="https://i.pravatar.cc/40?img=45" alt="Professora 3" loading="lazy" width="40" height="40">
-        <div class="avatar-plus">+</div>
-      </div>
+  <wistia-player media-id="h3hm3j5cdh"></wistia-player>
+
+</div>
+
+<!-- WISTIA -->
+<script src="https://fast.wistia.com/player.js" async></script>
+<script src="https://fast.wistia.com/embed/h3hm3j5cdh.js" async type="module"></script>
+
+<!-- SOCIAL PROOF -->
+<div class="mini-social-proof">
+  <div class="avatars">
+    <img src="https://i.pravatar.cc/40?img=12" alt="Professora 1" loading="lazy" width="40" height="40">
+    <img src="https://i.pravatar.cc/40?img=32" alt="Professora 2" loading="lazy" width="40" height="40">
+
+    <div class="avatar-last">
+      <img src="https://i.pravatar.cc/40?img=45" alt="Professora 3" loading="lazy" width="40" height="40">
+      <div class="avatar-plus">+</div>
     </div>
+  </div>
     <span>+9.435 professores já usam</span>
   </div>
 
