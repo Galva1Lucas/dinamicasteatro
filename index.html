@@ -15,20 +15,22 @@
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Montserrat:wght@600;700;800;900&display=swap" rel="stylesheet">
 
 <!-- UTMify: defer garante execução após o HTML, capturando UTMs antes de qualquer ação -->
-<script
-  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
-  data-utmify-prevent-xcod-sck
-  data-utmify-prevent-subids
-  defer
-></script>
-<!-- Pixel UTMify -->
 <script>
   window.pixelId = "69d45b3497d9d10cb9a60780";
   var a = document.createElement("script");
+  a.setAttribute("async", "");
   a.setAttribute("defer", "");
   a.setAttribute("src", "https://cdn.utmify.com.br/scripts/pixel/pixel.js");
   document.head.appendChild(a);
 </script>
+
+<script
+  src="https://cdn.utmify.com.br/scripts/utms/latest.js"
+  data-utmify-prevent-xcod-sck
+  data-utmify-prevent-subids
+  async
+  defer
+></script>
 
 <script type="application/ld+json">
 {
